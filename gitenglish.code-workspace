@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../gitenglish"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Week9 Assignment"
+	}
+}

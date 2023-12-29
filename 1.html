@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .bg{
+            background-color: #f1f1f1;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: #fff;
+            height: 60vh;
+            width: 30vw;
+            border-radius: 5px;
+        }
+        .item1{
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            top: 4rem;
+        }
+        .item2>input{
+            border: none;
+            outline: none;
+            position: relative;
+            top: 6rem;
+            left: 4rem;
+
+        }
+        .item3>input{
+            border: none;
+            position: relative;
+            top: 8.8rem;
+            left: 4rem;
+            outline: none;
+        }
+        .border1{
+            border: 1px solid #7D7D7A;
+            position: relative;
+            top: 6.8rem;
+            margin: 0px 65px;
+        }
+        .border{
+            border: 1px solid #7D7D7A;
+            position: relative;
+            top: 9.6rem;
+            margin: 0px 65px;
+        }
+        .item2>input[placeholder],.item3>input[placeholder]{
+            font-size: 18px;
+        }
+        .item4{
+            background-color: #1E87F0;
+            margin: 0px 65px;
+            position: relative;
+            top: 12rem;
+            padding: 0.5rem 6.5rem;
+            border-radius: 5px;
+        }
+        .item4>a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="box">
+            <div class="item1">Login</div>
+            <div class="item2"><input type="text" placeholder="Username" size="25"></div>
+            <div class="border1"></div>
+            <div class="item3"><input type="text" placeholder="Password" size="25"></div>
+            <div class="border"></div>
+            <div class="item4"><a href="#">Submit</a></div>
+        </div>
+    </div>
+</body>
+</html>
